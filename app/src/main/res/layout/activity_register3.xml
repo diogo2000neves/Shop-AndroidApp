@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a4c639"
+    tools:context="com.example.diogo.minhaaplicacao.Register3">
+
+    <Button
+        android:id="@+id/buttonToRegister3"
+        android:layout_width="132dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/button13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/mybutton"
+        android:text="Próximo"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="31dp"
+        android:layout_toStartOf="@+id/ano"
+        android:text="Registar"
+        android:textColor="@android:color/background_light"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:text="Registar" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="O seu número de telemóvel"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <EditText
+        android:id="@+id/telemovel"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:paddingLeft="20dp"
+        android:background="@drawable/input_text"
+        android:digits="0123456789"
+        android:maxLength="9"
+        android:ems="10"
+        android:hint="Telemóvel"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/telemovelText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="A sua data de nasicmento"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <EditText
+        android:id="@+id/mes"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/dia"
+        android:layout_alignBottom="@+id/dia"
+        android:layout_alignStart="@+id/textView11"
+        android:background="@drawable/input_text"
+        android:paddingLeft="16dp"
+        android:layout_marginStart="15dp"
+        android:maxLength="2"
+        android:maxLines="1"
+        android:digits="0123456789"
+        android:ems="10"
+        android:hint="Mês"
+        android:inputType="numberSigned"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <EditText
+        android:id="@+id/ano"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/mes"
+        android:layout_alignBottom="@+id/mes"
+        android:layout_alignEnd="@+id/textView24"
+        android:background="@drawable/input_text"
+        android:paddingLeft="13dp"
+        android:layout_marginEnd="29dp"
+        android:ems="10"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:digits="0123456789"
+        android:hint="Ano"
+        android:inputType="numberSigned"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <EditText
+        android:id="@+id/dia"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/textView16"
+        android:background="@drawable/input_text"
+        android:ems="10"
+        android:maxLength="2"
+        android:maxLines="1"
+        android:digits="0123456789"
+        android:hint="Dia"
+        android:inputType="numberSigned"
+        android:paddingLeft="16dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+
+    <EditText
+        android:id="@+id/morada"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/dia"
+        android:layout_below="@+id/textView24"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/input_text"
+        android:ems="10"
+        android:maxLength="100"
+        android:maxLines="1"
+        android:hint="Morada"
+        android:inputType="textPostalAddress"
+        android:paddingLeft="20dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/morada"
+        android:layout_below="@+id/mes"
+        android:layout_marginTop="30dp"
+        android:text="A sua morada residencial"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <EditText
+        android:id="@+id/postal"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/codigo"
+        android:layout_alignStart="@+id/ano"
+        android:background="@drawable/input_text"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:ems="10"
+        android:hint="XXX"
+        android:inputType="number"
+        android:paddingLeft="26dp"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <EditText
+        android:id="@+id/codigo"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/morada"
+        android:layout_below="@+id/morada"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/input_text"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:digits="0123456789"
+        android:ems="10"
+        android:hint="Código Postal"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dia"
+        android:layout_alignBottom="@+id/dia"
+        android:layout_toStartOf="@+id/textView11"
+        android:text="----" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/codigo"
+        android:layout_alignBottom="@+id/codigo"
+        android:layout_toStartOf="@+id/button13"
+        android:text="----" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_toEndOf="@+id/textView19"
+        android:text="----" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/morada"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="4"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/buttonToRegister3"
+        android:layout_alignTop="@+id/button12"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="3"
+        android:textColor="?android:attr/colorControlActivated"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/buttonToRegister3"
+        android:layout_alignTop="@+id/button13"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="ClickVoltar2"
+        android:text="2"
+        android:textColor="?android:attr/colorControlActivated"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/codigo"
+        android:layout_alignTop="@+id/button14"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="ClickVoltar1"
+        android:text="1"
+        android:textColor="?android:attr/colorControlActivated"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button14"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="22dp"
+        android:layout_toStartOf="@+id/imageView30"
+        android:src="@drawable/barra" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView29"
+        android:layout_toEndOf="@+id/button14"
+        android:src="@drawable/barra" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="9dp"
+        android:layout_toStartOf="@+id/imageView29"
+        android:src="@drawable/arrow" />
+
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView15"
+        android:layout_alignEnd="@+id/button15"
+        android:alpha="0.0"
+        android:onClick="ClickBack3"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/telemovelText"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telemovel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/trueRed" />
+
+    <TextView
+        android:id="@+id/moradaText"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView24"
+        android:layout_alignEnd="@+id/postal"
+        android:textColor="@color/trueRed" />
+
+    <TextView
+        android:id="@+id/diaText"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_alignEnd="@+id/dia"
+        android:layout_below="@+id/dia"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/trueRed" />
+
+    <TextView
+        android:id="@+id/mesText"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_alignBaseline="@+id/diaText"
+        android:layout_alignBottom="@+id/diaText"
+        android:layout_toStartOf="@+id/textView19"
+        android:textColor="@color/trueRed" />
+
+    <TextView
+        android:id="@+id/anoText"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_alignEnd="@+id/ano"
+        android:layout_alignTop="@+id/mesText"
+        android:textColor="@color/trueRed" />
+
+    <TextView
+        android:id="@+id/codigoText"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_alignStart="@+id/telemovelText"
+        android:layout_below="@+id/codigo"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/trueRed" />
+
+    <TextView
+        android:id="@+id/postalText"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_alignEnd="@+id/button12"
+        android:layout_alignTop="@+id/codigoText"
+        android:textColor="@color/trueRed" />
+
+
+</RelativeLayout>

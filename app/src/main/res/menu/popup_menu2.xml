@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/um"
+        android:title="Mudar 1ª imagem"/>
+    <item
+        android:id="@+id/dois"
+        android:title="Mudar 2ª imagem"/>
+    <item
+        android:id="@+id/tres"
+        android:title="Mudar 3ª imagem"/>
+    <item
+        android:id="@+id/quatro"
+        android:title="Mudar 4ª imagem"/>
+    <item
+        android:id="@+id/cinco"
+        android:title="Mudar 5ª imagem"/>
+    <item
+        android:id="@+id/seis"
+        android:title="Mudar 6ª imagem"/>
+
+</menu>

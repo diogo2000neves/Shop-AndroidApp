@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a4c639"
+    tools:context="com.example.diogo.minhaaplicacao.UserArea">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:layout_above="@+id/lojaButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif"
+        android:text="Menu"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sair"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/botaoum" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:src="@drawable/botaoum" />
+
+
+    <CheckedTextView
+        android:id="@+id/sair"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="36dp"
+        android:onClick="ClickSair"
+        android:text="Terminar sessão"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/botaoum" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginBottom="68dp"
+        android:src="@drawable/botaoum" />
+
+    <Button
+        android:id="@+id/lojaButton"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@color/transparent"
+        android:onClick="ClickLoja"
+        android:textColor="#a4c639"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Opcao2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_below="@+id/imageView8"
+        android:layout_marginTop="11dp"
+        android:background="@color/transparent"
+        android:onClick="ClickEncomendas"
+        android:text="Encomendas"
+        android:textColor="#a4c639"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Opcao3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/imageView"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginBottom="19dp"
+        android:background="@color/transparent"
+        android:onClick="ClickContacto"
+        android:text="Contacto"
+        android:textColor="#a4c639"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Opcao4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="15dp"
+        android:background="@color/transparent"
+        android:onClick="ClickConta"
+        android:text="Conta"
+        android:textColor="#a4c639"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Opcao1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/lojaButton"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:background="@color/transparent"
+        android:onClick="ClickLoja"
+        android:text="Loja"
+        android:textColor="#a4c639"
+        android:textSize="25sp"
+        tools:text="Loja" />
+
+    <Button
+        android:id="@+id/sairBtn"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/sair"
+        android:layout_alignTop="@+id/sair"
+        android:background="@color/transparent" />
+
+</RelativeLayout>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diogo.minhaaplicacao.Conta">
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="412dp"
+        android:layout_height="190dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#a4c639" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView34"
+        android:text="
+   "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView39"
+        android:layout_alignStart="@+id/backConta"
+        android:text="Alterar dados"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/primeiraDef"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView69"
+        android:alpha="0.0"
+        android:onClick="DefUm"
+        android:text="Alterar Dados" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/primeiraDef"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button18"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/arrowlit" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView38"
+        android:text="
+   "
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView70"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/imageView39"
+        android:layout_below="@+id/imageView38"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/arrowlit" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView40"
+        android:text="
+   "
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView72"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/imageView41"
+        android:layout_below="@+id/imageView40"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/arrowlit" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView72"
+        android:text="
+   "
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView73"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/imageView43"
+        android:layout_below="@+id/imageView42"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/arrowlit" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignEnd="@+id/imageView39"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/userimage" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:layout_toEndOf="@+id/backConta"
+        android:textColor="@android:color/background_light"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView74"
+        android:layout_marginTop="109dp"
+        android:background="@drawable/mybutton2"
+        android:text="Alterar foto"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView44"
+        android:text="
+   "
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView75"
+        android:src="@drawable/separacao" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="
+   "
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/textView76"
+        android:layout_alignEnd="@+id/imageView45"
+        android:layout_marginBottom="19dp"
+        android:src="@drawable/arrowlit" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/textView76"
+        android:layout_alignEnd="@+id/imageView49"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/arrowlit" />
+
+    <Button
+        android:id="@+id/segundaDef"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_above="@+id/imageView40"
+        android:layout_alignParentStart="true"
+        android:alpha="0.0"
+        android:text="Alterar Pass" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_alignTop="@+id/imageView41"
+        android:text="Alterar password"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/terceiraDef"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView40"
+        android:alpha="0.0"
+        android:text="Ver Mensagens" />
+
+    <Button
+        android:id="@+id/quartaDef"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/terceiraDef"
+        android:alpha="0.0"
+        android:text="Histórico de encomendas" />
+
+    <Button
+        android:id="@+id/quintaDef"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/quartaDef"
+        android:alpha="0.0"
+        android:text="Definições de notificação" />
+
+    <Button
+        android:id="@+id/sextaDef"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/quintaDef"
+        android:alpha="0.0"
+        android:text="Terminar Sessão" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button18"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView34"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView51"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView52"
+        android:src="@drawable/separacao" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_alignTop="@+id/imageView43"
+        android:text="Ver mensagens"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_alignTop="@+id/imageView45"
+        android:layout_marginEnd="59dp"
+        android:text="Histórico de encomendas"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView67"
+        android:layout_alignTop="@+id/imageView49"
+        android:text="Definições de notificação"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView71"
+        android:layout_alignTop="@+id/imageView50"
+        android:text="Terminar sessão"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/backConta"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView46"
+        android:layout_marginStart="19dp"
+        android:onClick="ClickConta"
+        android:src="@drawable/arrow" />
+
+</RelativeLayout>

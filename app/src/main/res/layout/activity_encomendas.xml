@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diogo.minhaaplicacao.Loja">
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="412dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#a4c639" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/button16"
+        android:layout_below="@+id/button16"
+        android:layout_marginTop="44dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView27"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/imageView27"
+        android:text="Produto 1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView50"
+        android:layout_below="@+id/textView50"
+        android:layout_marginTop="12dp"
+        android:text="Estado: "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView51"
+        android:layout_alignBottom="@+id/textView51"
+        android:layout_toEndOf="@+id/textView51"
+        android:text="Pendente"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView27"
+        android:layout_below="@+id/imageView27"
+        android:layout_marginTop="35dp"
+        android:text="Informação da encomenda: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView53"
+        android:layout_below="@+id/textView53"
+        android:layout_marginTop="22dp"
+        android:text="Quantia: "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView54"
+        android:layout_marginStart="9dp"
+        android:layout_toEndOf="@+id/textView54"
+        android:text="1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView54"
+        android:layout_below="@+id/textView54"
+        android:layout_marginTop="24dp"
+        android:text="Data da encomenda: "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView56"
+        android:layout_alignBottom="@+id/textView56"
+        android:layout_toEndOf="@+id/textView51"
+        android:text="11/01/2018"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView56"
+        android:layout_below="@+id/textView56"
+        android:layout_marginTop="34dp"
+        android:text="Custo total:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView58"
+        android:layout_alignBottom="@+id/textView58"
+        android:layout_alignEnd="@+id/textView56"
+        android:layout_marginEnd="9dp"
+        android:text="10,50€"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView58"
+        android:layout_below="@+id/textView58"
+        android:layout_marginTop="28dp"
+        android:text="Morada da entrega:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView60"
+        android:layout_alignBottom="@+id/textView60"
+        android:layout_toEndOf="@+id/textView59"
+        android:text="Rua Principal do Moimento"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/button11"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignStart="@+id/textView59"
+        android:text="As suas encomendas"
+        android:textColor="@android:color/background_light"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView27"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/arrow"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/back8"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:alpha="0.0"
+        android:onClick="ClickBack8"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView63"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="11dp"
+        android:text="Número de encomendas:"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_below="@+id/textView20"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/round_button"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button11"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView59"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView59"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView59"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView60"
+        android:src="@drawable/separacao" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView50"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:src="@drawable/separacao" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/imageView27"
+        android:layout_toEndOf="@+id/textView54"
+        android:background="@drawable/round_button"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/button17"
+        android:layout_alignBottom="@+id/button17"
+        android:layout_alignEnd="@+id/textView20"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/round_button"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

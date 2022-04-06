@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a4c639"
+    tools:context="com.example.diogo.minhaaplicacao.RegisterConclusao">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="34dp"
+        android:text="Bem vindo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="91dp"
+        android:background="@drawable/input_text"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="   Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/editText8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/input_text"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="   Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/loginButton2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/checkedTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="ClickLogin"
+        android:text="ENTRAR"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:sub_btn_duration="2200"
+        app:sub_btn_line_color="#FFFF"
+        app:sub_btn_ripple_color="#FFFF"
+        app:sub_btn_tick_color="#7F7F7F" />
+
+    <TextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="Foi registado com sucesso!"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:text="Faça Login"
+        android:textColor="#808080"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="528dp" />
+</RelativeLayout>

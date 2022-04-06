@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diogo.minhaaplicacao.Produto1">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignEnd="@+id/textView46"
+        android:layout_alignTop="@+id/imageView65"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <Button
+        android:id="@+id/back6"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@+id/imageView65"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:alpha="0.0"
+        android:onClick="ClickBack6"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView19"
+        android:layout_marginBottom="11dp"
+        android:layout_toStartOf="@+id/editText20"
+        android:text="Produto 1"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView48"
+        android:layout_alignBottom="@+id/textView48"
+        android:layout_alignStart="@+id/textView46"
+        android:text="Descrição:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView48"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Este é o primeiro produto da nossa loja. Esta é a área de descrição do produto, que tem como objetivo testar o layout da app."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView46"
+        android:layout_below="@+id/textView46"
+        android:layout_marginTop="22dp"
+        android:text="Nesta parte será necessário apontar alguns dos aspectos que o produto possuí, de forma a deixar o consumidor bem informado e mais confiante para comprar."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView46"
+        android:layout_below="@+id/imageView19"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="16dp"
+        android:text="10,50€"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView47"
+        android:layout_below="@+id/textView47"
+        android:layout_marginTop="51dp"
+        android:text="Quantidade:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/textView49"
+        android:layout_alignBottom="@+id/textView49"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/textView49"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_alignEnd="@+id/imageView19"
+        android:layout_below="@+id/editText20"
+        android:layout_marginTop="54dp"
+        android:background="@android:color/darker_gray"
+        android:text="Finalizar Compra" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignStart="@+id/textView49"
+        android:background="@android:color/darker_gray"
+        android:text="Juntar ao carrinho" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView46"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/arrowleft" />
+
+</RelativeLayout>

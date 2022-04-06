@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
+        <item name="android:textColorPrimaryInverse">#000000</item>
+    </style>
+
+</resources>
